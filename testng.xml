@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Chrome">
+  
+  <groups>
+
+            <define name="all">
+                <include name="smokeTestSuite" />
+                <include name="regressionSuite" />
+            </define>
+
+
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <classes>
+      <class name="package1Test.testing1Practice"/>
+      <class name="package1Test.testing2Practice"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
