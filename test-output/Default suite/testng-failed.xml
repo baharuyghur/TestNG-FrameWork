@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssured.statusValidationTest">
+      <class name="restAssured_LIST.GetListsFromBoard">
         <methods>
-          <include name="validate"/>
+          <include name="getLists"/>
         </methods>
-      </class> <!-- restAssured.statusValidationTest -->
+      </class> <!-- restAssured_LIST.GetListsFromBoard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

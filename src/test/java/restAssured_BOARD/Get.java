@@ -1,4 +1,4 @@
-package restAssured;
+package restAssured_BOARD;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

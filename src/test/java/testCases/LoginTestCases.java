@@ -1,4 +1,6 @@
 package testCases;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -31,7 +33,7 @@ public class LoginTestCases extends CommonMethods{
         ap.chooseUserRoleOption(BaseClass2.getProperty("enabled"));
         ap.SearchButton.click();
       
-        Assert.assertTrue(ap.recordsTable.size()==1);
+        AssertJUnit.assertTrue(ap.recordsTable.size()==1);
         	
        ap.nationalitiesButton.click();
         String nationality = "bahaIsland";

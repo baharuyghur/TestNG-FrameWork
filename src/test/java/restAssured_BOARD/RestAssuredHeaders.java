@@ -1,4 +1,4 @@
-package restAssured;
+package restAssured_BOARD;
 import org.testng.annotations.Test;
 
 import io.restassured.http.Header;

@@ -1,4 +1,4 @@
-package restAssured;
+package restAssured_BOARD;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
